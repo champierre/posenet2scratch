@@ -23,7 +23,7 @@ If you make a project with using PoseNet2Scratch, please share it with hashtag: 
 2. Click "Add Extension" button(Folder with "+" mark icon).
 <img src="images/en/extension.png" width="400" />
 
-3. Select PoseNet2Scratch extension.
+3. Select "PoseNet2Scratch" extension.
 <img src="images/en/posenet_extension.png" width="400" />
 
 4. You can use PoseNet2Scratch blocks.

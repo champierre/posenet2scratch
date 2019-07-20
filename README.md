@@ -4,7 +4,7 @@
 
 PoseNet2Scratch can detect human pose and add special Scratch blocks that can get x and y position of each part of the body.
 
-It uses [PoseNet](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5), a machine learning model that allows for Real-time Human Pose Estimation, and [ml5.js](https://ml5js.org/), a JavaScript library for machine learning, to connect it with Scratch 3.
+It uses [PoseNet](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5), a machine learning model , for Real-time Human Pose Estimation. [ml5.js](https://ml5js.org/), a JavaScript library for machine learning, is used to connect it with Scratch 3.
 
 <p>
 

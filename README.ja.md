@@ -8,13 +8,7 @@ PoseNet2Scratchは人の姿勢を検出し、身体の各部分のxとyの位置
 
 また、Scratch 3の拡張機能として利用できるように、機械学習用JavaScriptライブラリ[ml5.js](https://ml5js.org/)を使用して実装しています。
 
-<p>
-
 <img src="images/posenet.gif" width="400" />
-
-<img src="images/posenet2.gif" width="400" />
-
-</p>
 
 PoseNet2Scratchは、[独自バージョンのScratch 3](https://champierre.github.io/scratch/)で実際に体験できます。
 

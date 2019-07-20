@@ -8,13 +8,7 @@ It uses [PoseNet](https://medium.com/tensorflow/real-time-human-pose-estimation-
 
 [ml5.js](https://ml5js.org/), a JavaScript library for machine learning, is used to connect it with Scratch 3.
 
-<p>
-
 <img src="images/posenet.gif" width="400" />
-
-<img src="images/posenet2.gif" width="400" />
-
-</p>
 
 Try [the customized Scratch 3](https://champierre.github.io/scratch/) that has PoseNet2Scratch as an extension.
 

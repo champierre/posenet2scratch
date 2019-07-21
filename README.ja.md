@@ -12,7 +12,7 @@ PoseNet2Scratchは人の姿勢を検出し、身体の各部分のxとyの位置
 
 PoseNet2Scratchは、[独自バージョンのScratch 3](https://champierre.github.io/scratch/)で実際に体験できます。
 
-PoseNet2Scratchを使用してプロジェクトを作成したら、ぜひハッシュタグ**＃posenet2scratch**でシェアしてください。
+PoseNet2Scratchを使用してプロジェクトを作成したら、ぜひハッシュタグ **#posenet2scratch** でシェアしてください。
 
 ## 使用例
 
@@ -38,3 +38,23 @@ PoseNet2Scratchを使用してプロジェクトを作成したら、ぜひハ�
 
 8. 顔の中央（鼻のx位置）と目の高さ（左目のy位置）に眼鏡が表示されます。
 <img src="images/ja/face.png" width="400" />
+
+PoseNet2Scratch拡張ブロックを使うと、以下の各身体の部分のxおよびy座標を取得できます。
+
+- 鼻
+- 左目
+- 右目
+- 左耳
+- 右耳
+- 左肩
+- 右肩
+- 左ひじ
+- 右ひじ
+- 左手首
+- 右手首
+- 左腰
+- 右腰
+- 左ひざ
+- 右ひざ
+- 左足首
+- 右足首

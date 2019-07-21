@@ -38,3 +38,23 @@ If you make a project with using PoseNet2Scratch, please share it with hashtag: 
 
 8. You will have the glasses shown at the center of your face(x position of the nose) and at the hight of your eyes(y position of the left eye).
 <img src="images/en/face.png" width="400" />
+
+With PoseNet2Scratch extension blocks, you can get x and y position of the following body parts:
+
+- nose
+- left eye
+- right eye
+- left ear
+- right ear
+- left shoulder
+- right shoulder
+- left elbow
+- right elbow
+- left wrist
+- right wrist
+- left hip
+- right hip
+- left knee
+- right knee
+- left ankle
+- right ankle

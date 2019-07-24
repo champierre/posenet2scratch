@@ -271,6 +271,40 @@ class Scratch3Posenet2ScratchBlocks {
             name: 'Posenet2Scratch',
             blocks: [
                 {
+                    opcode: 'getX',
+                    blockType: BlockType.REPORTER,
+                    text: Message.getX[this._locale],
+                    arguments: {
+                        PERSON_NUMBER: {
+                            type: ArgumentType.STRING,
+                            menu: 'personNumbers',
+                            defaultValue: '0'
+                        },
+                        PART: {
+                            type: ArgumentType.STRING,
+                            menu: 'parts',
+                            defaultValue: '0'
+                        }
+                    }
+                },
+                {
+                    opcode: 'getY',
+                    blockType: BlockType.REPORTER,
+                    text: Message.getY[this._locale],
+                    arguments: {
+                        PERSON_NUMBER: {
+                            type: ArgumentType.STRING,
+                            menu: 'personNumbers',
+                            defaultValue: '0'
+                        },
+                        PART: {
+                            type: ArgumentType.STRING,
+                            menu: 'parts',
+                            defaultValue: '0'
+                        }
+                    }
+                },
+                {
                     opcode: 'getNoseX',
                     blockType: BlockType.REPORTER,
                     text: Message.nose[this._locale] + Message.x[this._locale]
@@ -440,40 +474,6 @@ class Scratch3Posenet2ScratchBlocks {
                     blockType: BlockType.REPORTER,
                     text: Message.rightAnkle[this._locale] + Message.y[this._locale]
                 },
-                {
-                    opcode: 'getX',
-                    blockType: BlockType.REPORTER,
-                    text: Message.getX[this._locale],
-                    arguments: {
-                        PERSON_NUMBER: {
-                            type: ArgumentType.STRING,
-                            menu: 'personNumbers',
-                            defaultValue: '0'
-                        },
-                        PART: {
-                            type: ArgumentType.STRING,
-                            menu: 'parts',
-                            defaultValue: '0'
-                        }
-                    }
-                },
-                {
-                    opcode: 'getY',
-                    blockType: BlockType.REPORTER,
-                    text: Message.getY[this._locale],
-                    arguments: {
-                        PERSON_NUMBER: {
-                            type: ArgumentType.STRING,
-                            menu: 'personNumbers',
-                            defaultValue: '0'
-                        },
-                        PART: {
-                            type: ArgumentType.STRING,
-                            menu: 'parts',
-                            defaultValue: '0'
-                        }
-                    }
-                }
             ],
             menus: {
               personNumbers: this.PERSON_NUMBERS_MENU,

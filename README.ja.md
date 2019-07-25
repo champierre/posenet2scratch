@@ -10,6 +10,8 @@ PoseNet2Scratchは人の姿勢を検出し、身体の各部分のxとyの位置
 
 <img src="images/posenet.gif" width="400" />
 
+<img src="images/nekorider.gif" width="400" />
+
 PoseNet2Scratchは、[独自バージョンのScratch 3](https://champierre.github.io/scratch/)で実際に体験できます。
 
 PoseNet2Scratchを使用してプロジェクトを作成したら、ぜひハッシュタグ **#posenet2scratch** でシェアしてください。

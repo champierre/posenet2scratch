@@ -12,7 +12,7 @@ It uses [PoseNet](https://medium.com/tensorflow/real-time-human-pose-estimation-
 
 <img src="images/nekorider.gif" width="400" />
 
-&raquo; [Sample Project(nekorider)](projects/nekorider.sb3)
+&raquo; [Sample Project(nekorider)](https://github.com/champierre/posenet2scratch/raw/master/projects/nekorider.sb3)
 
 Try [the customized Scratch 3](https://champierre.github.io/scratch/) that has PoseNet2Scratch as an extension.
 

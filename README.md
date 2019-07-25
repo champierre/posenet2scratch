@@ -10,6 +10,8 @@ It uses [PoseNet](https://medium.com/tensorflow/real-time-human-pose-estimation-
 
 <img src="images/posenet.gif" width="400" />
 
+<img src="images/nekorider.gif" width="400" />
+
 Try [the customized Scratch 3](https://champierre.github.io/scratch/) that has PoseNet2Scratch as an extension.
 
 If you make a project with using PoseNet2Scratch, please share it with hashtag: **#posenet2scratch**.

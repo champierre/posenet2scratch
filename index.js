@@ -1,7 +1,7 @@
 const ArgumentType = require('../../extension-support/argument-type');
 const BlockType = require('../../extension-support/block-type');
 const Cast = require('../../util/cast');
-const Ml5 = require('./ml5.min.js');
+const Ml5 = require('../ml5.min.js');
 const formatMessage = require('format-message');
 const Message = {
   x: {

@@ -14,13 +14,13 @@ It uses [PoseNet](https://medium.com/tensorflow/real-time-human-pose-estimation-
 
 &raquo; [Sample Project(nekorider)](https://github.com/champierre/posenet2scratch/raw/master/projects/nekorider.sb3)
 
-Try [the customized Scratch 3](https://champierre.github.io/scratch/) that has PoseNet2Scratch as an extension.
+Try [the customized Scratch 3](https://champierre.github.io/scratch3/) that has PoseNet2Scratch as an extension.
 
 If you make a project with using PoseNet2Scratch, please share it with hashtag: **#posenet2scratch**.
 
 ## Sample Usage
 
-1. Open https://champierre.github.io/scratch/ on a browser(Chrome is recommended).
+1. Open https://champierre.github.io/scratch3/ on a browser(Chrome is recommended).
 
 2. Click "Add Extension" button(Folder with "+" mark icon).
 <img src="images/en/extension.png" width="400" />

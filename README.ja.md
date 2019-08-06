@@ -14,13 +14,13 @@ PoseNet2Scratchは人の姿勢を検出し、身体の各部分のxとyの位置
 
 &raquo; [サンプルプロジェクト(ネコライダー)](https://github.com/champierre/posenet2scratch/raw/master/projects/nekorider.sb3)
 
-PoseNet2Scratchは、[独自バージョンのScratch 3](https://champierre.github.io/scratch/)で実際に体験できます。
+PoseNet2Scratchは、[独自バージョンのScratch 3](https://champierre.github.io/scratch3/)で実際に体験できます。
 
 PoseNet2Scratchを使用してプロジェクトを作成したら、ぜひハッシュタグ **#posenet2scratch** でシェアしてください。
 
 ## 使用例
 
-1. ブラウザで https://champierre.github.io/scratch/ を開きます（Chrome推奨）。
+1. ブラウザで https://champierre.github.io/scratch3/ を開きます（Chrome推奨）。
 
 2. 「拡張機能を追加」ボタン（+が付いたフォルダのアイコン）をクリックします。
 <img src="images/ja/extension.png" width="400" />

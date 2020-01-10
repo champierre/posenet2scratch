@@ -22,7 +22,7 @@ PoseNet2Scratchを使用してプロジェクトを作成したら、ぜひハ�
 
 ## 使用例
 
-1. ブラウザで https://champierre.github.io/scratch3/ を開きます（Chrome推奨）。
+1. ブラウザで https://champierre.github.io/scratch3/ を開きます。ブラウザは[Google Chrome](https://www.google.com/intl/ja_jp/chrome/)を使用してください。Chrome の拡張機能を使用している場合に、正常に動作しないことがあるので、もしうまく動かないという場合には、[ゲストモード](https://support.google.com/chrome/answer/6130773)に切り替えてお試しください。
 
 2. 「拡張機能を追加」ボタン（+が付いたフォルダのアイコン）をクリックします。
 <img src="images/ja/extension.png" width="400" />

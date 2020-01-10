@@ -21,7 +21,7 @@ If you make a project with using PoseNet2Scratch, please share it with hashtag: 
 
 ## Sample Usage
 
-1. Open https://champierre.github.io/scratch3/ on a browser(Chrome is recommended).
+1. Open https://champierre.github.io/scratch3/ on a browser([Google Chrome](https://www.google.com/intl/ja_jp/chrome/) is recommended). PoseNet2Scratch sometimes does not work because of some Chrome extensions. Plese switch to Guest Mode in such cases.
 
 2. Click "Add Extension" button(Folder with "+" mark icon).
 <img src="images/en/extension.png" width="400" />

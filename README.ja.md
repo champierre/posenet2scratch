@@ -18,9 +18,28 @@ PoseNet2Scratchは人の姿勢を検出し、身体の各部分のxとyの位置
 
 PoseNet2Scratchは、[独自バージョンのScratch 3](https://champierre.github.io/scratch3/)で実際に体験できます。
 
-PoseNet2Scratchを使用してプロジェクトを作成したら、ぜひハッシュタグ **#posenet2scratch** でシェアしてください。
+## Licence(ライセンス)
 
-## 使用例
+- PoseNet2Scratchには [Apache 2.0 License](./LICENSE.md) が適用されます。オープンソースで、誰でも自由に利用できます。授業やワークショップで使用でき、商用利用も認められています。あなたやあなたの生徒さんがPoseNet2Scratchを使用して何か面白いプロジェクトを作成したときは、ぜひハッシュタグ **#posenet2scratch** を使用してSNSで共有するか、連絡先までお知らせください。
+
+## Contacts(連絡先)
+
+- Twitter
+
+    <img src="images/twitter.png" />
+
+## Requirements(推奨環境)
+
+- OS
+  - Windows 8
+  - Windows 10
+  - MacOS
+- ブラウザ
+  - Chrome
+
+Chrome の拡張機能を使用している場合に、正常に動作しないことがあるので、もしうまく動かないという場合には、[ゲストモード](https://support.google.com/chrome/answer/6130773)に切り替えてお試しください。
+
+## How to use(使い方)
 
 1. ブラウザで https://champierre.github.io/scratch3/ を開きます。ブラウザは[Google Chrome](https://www.google.com/intl/ja_jp/chrome/)を使用してください。Chrome の拡張機能を使用している場合に、正常に動作しないことがあるので、もしうまく動かないという場合には、[ゲストモード](https://support.google.com/chrome/answer/6130773)に切り替えてお試しください。
 

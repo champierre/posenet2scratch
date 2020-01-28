@@ -17,9 +17,28 @@ It uses [PoseNet](https://medium.com/tensorflow/real-time-human-pose-estimation-
 
 Try [the customized Scratch 3](https://champierre.github.io/scratch3/) that has PoseNet2Scratch as an extension.
 
-If you make a project with using PoseNet2Scratch, please share it with hashtag: **#posenet2scratch**.
+## Licence
 
-## Sample Usage
+- PoseNet2Scratch is under [Apache 2.0 License](./LICENSE.md), open source and freely available to anyone. You can use it at your classes, workshops. Commercial usage is also accepted. If you or your students created something cool using PoseNet2Scratch, please share it on SNS using hashtag **#posenet2scratch** or let me know to any of these contacts.
+
+## Contacts
+
+- Twitter
+
+    <img src="images/twitter.png" />
+
+## Requirements
+
+- OS
+  - Windows 8
+  - Windows 10
+  - MacOS
+- Browser
+  - Chrome
+
+PoseNet2Scratch sometimes does not work because of some Chrome extensions. Plese switch to [Guest Mode](https://support.google.com/chrome/answer/6130773) in such cases.
+
+## How to use
 
 1. Open https://champierre.github.io/scratch3/ on a browser([Google Chrome](https://www.google.com/intl/ja_jp/chrome/) is recommended). PoseNet2Scratch sometimes does not work because of some Chrome extensions. Plese switch to Guest Mode in such cases.
 

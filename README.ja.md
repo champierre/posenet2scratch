@@ -37,7 +37,7 @@ PoseNet2Scratchは、[独自バージョンのScratch 3](https://champierre.gith
 - ブラウザ
   - Chrome
 
-Chrome の拡張機能を使用している場合に、正常に動作しないことがあるので、もしうまく動かないという場合には、[ゲストモード](https://support.google.com/chrome/answer/6130773)に切り替えてお試しください。
+Chrome の拡張機能を使用している場合に、正常に動作しないことがあるので、もしうまく動かないという場合には、[ゲストモード](https://support.google.com/chrome/answer/6130773?hl=ja)に切り替えてお試しください。
 
 ## How to use(使い方)
 

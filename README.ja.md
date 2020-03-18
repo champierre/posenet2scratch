@@ -20,7 +20,7 @@ PoseNet2Scratchは、[独自バージョンのScratch 3](https://champierre.gith
 
 ## Licence(ライセンス)
 
-- PoseNet2Scratchには [Apache 2.0 License](./LICENSE.md) が適用されます。オープンソースで、誰でも自由に利用できます。授業やワークショップで使用でき、商用利用も認められています。あなたやあなたの生徒さんがPoseNet2Scratchを使用して何か面白いプロジェクトを作成したときは、ぜひハッシュタグ **#posenet2scratch** を使用してSNSで共有するか、連絡先までお知らせください。
+- PoseNet2Scratchには [BSD 3-Clause License](./LICENSE.md) が適用されます。オープンソースで、誰でも自由に利用できます。授業やワークショップで使用でき、商用利用も認められています。あなたやあなたの生徒さんがPoseNet2Scratchを使用して何か面白いプロジェクトを作成したときは、ぜひハッシュタグ **#posenet2scratch** を使用してSNSで共有するか、連絡先までお知らせください。
 
 ## Contacts(連絡先)
 

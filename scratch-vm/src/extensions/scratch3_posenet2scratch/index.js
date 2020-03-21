@@ -18,7 +18,7 @@ const Message = {
   },
   peopleCount: {
     'ja': '人数',
-    'ja-Hira': '人数',
+    'ja-Hira': 'にんずう',
     'en': 'people count'
   },
   nose: {

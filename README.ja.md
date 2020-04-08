@@ -28,6 +28,10 @@ PoseNet2Scratchは、[独自バージョンのScratch 3](https://champierre.gith
 
     <img src="images/twitter.png" />
 
+## Examples of use(活用例)
+
+- [スクッチブラザーズ(スクッチブラザーズは、scratchの拡張機能の、posenet2scratchを使った作品です)](https://www.youtube.com/watch?v=AutgIeyxlb0)
+
 ## Requirements(推奨環境)
 
 - OS

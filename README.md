@@ -27,6 +27,11 @@ Try [the customized Scratch 3](https://champierre.github.io/scratch3/) that has 
 
     <img src="images/twitter.png" />
 
+## Examples of use
+
+- [Skutch Brothers(Super Smash Brothers type game)](https://www.youtube.com/watch?v=AutgIeyxlb0)
+
+
 ## Requirements
 
 - OS

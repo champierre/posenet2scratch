@@ -551,7 +551,7 @@ class Scratch3Posenet2ScratchBlocks {
                 items: this.PARTS_MENU
               },
               videoMenu: {
-                acceptReporters: true,
+                acceptReporters: false,
                 items: this.VIDEO_MENU
               }
             }

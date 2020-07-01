@@ -15,7 +15,7 @@ It uses [PoseNet](https://medium.com/tensorflow/real-time-human-pose-estimation-
 - [Sample Project(nekorider)](https://github.com/champierre/posenet2scratch/raw/master/projects/nekorider.sb3)
 - [Sample Project(glasses)](https://github.com/champierre/posenet2scratch/raw/master/projects/glasses.sb3)
 
-Try [the customized Scratch 3](https://champierre.github.io/scratch3/) that has PoseNet2Scratch as an extension.
+Try [the customized Scratch 3](https://stretch3.github.io/) that has PoseNet2Scratch as an extension.
 
 ## Licence
 
@@ -45,7 +45,7 @@ PoseNet2Scratch sometimes does not work because of some Chrome extensions. Plese
 
 ## How to use
 
-1. Open https://champierre.github.io/scratch3/ on a browser([Google Chrome](https://www.google.com/intl/ja_jp/chrome/) is recommended). PoseNet2Scratch sometimes does not work because of some Chrome extensions. Plese switch to Guest Mode in such cases.
+1. Open https://stretch3.github.io/ on a browser([Google Chrome](https://www.google.com/intl/ja_jp/chrome/) is recommended). PoseNet2Scratch sometimes does not work because of some Chrome extensions. Plese switch to Guest Mode in such cases.
 
 2. Click "Add Extension" button(Folder with "+" mark icon).
 <img src="images/en/extension.png" width="400" />

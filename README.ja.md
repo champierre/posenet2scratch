@@ -16,7 +16,7 @@ PoseNet2Scratchは人の姿勢を検出し、身体の各部分のxとyの位置
 - [サンプルプロジェクト(サングラス)](https://github.com/champierre/posenet2scratch/raw/master/projects/glasses.sb3)
 
 
-PoseNet2Scratchは、[独自バージョンのScratch 3](https://champierre.github.io/scratch3/)で実際に体験できます。
+PoseNet2Scratchは、[独自バージョンのScratch 3](https://stretch3.github.io/)で実際に体験できます。
 
 ## Licence(ライセンス)
 
@@ -45,7 +45,7 @@ Chrome の拡張機能を使用している場合に、正常に動作しない�
 
 ## How to use(使い方)
 
-1. ブラウザで https://champierre.github.io/scratch3/ を開きます。ブラウザは[Google Chrome](https://www.google.com/intl/ja_jp/chrome/)を使用してください。Chrome の拡張機能を使用している場合に、正常に動作しないことがあるので、もしうまく動かないという場合には、[ゲストモード](https://support.google.com/chrome/answer/6130773)に切り替えてお試しください。
+1. ブラウザで https://stretch3.github.io/ を開きます。ブラウザは[Google Chrome](https://www.google.com/intl/ja_jp/chrome/)を使用してください。Chrome の拡張機能を使用している場合に、正常に動作しないことがあるので、もしうまく動かないという場合には、[ゲストモード](https://support.google.com/chrome/answer/6130773)に切り替えてお試しください。
 
 2. 「拡張機能を追加」ボタン（+が付いたフォルダのアイコン）をクリックします。
 <img src="images/ja/extension.png" width="400" />

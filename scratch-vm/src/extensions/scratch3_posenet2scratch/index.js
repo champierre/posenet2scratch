@@ -296,7 +296,7 @@ class Scratch3Posenet2ScratchBlocks {
             video.srcObject = stream;
         });
 
-        let poseNet = ml5.poseNet(video, {architecture: 'ResNet50'}, ()=>{
+        let poseNet = ml5.poseNet(video, ()=>{
             console.log('Model Loaded!');
         });
 

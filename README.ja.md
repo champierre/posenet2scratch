@@ -87,3 +87,31 @@ PoseNet2Scratch拡張ブロックを使うと、以下の各身体の部分のx�
 - 右ひざ
 - 左足首
 - 右足首
+
+## For Developers - How to run PoseNet2Scratch extension on your computer
+
+1. Setup LLK/scratch-gui on your computer.
+
+    ```
+    % git clone git@github.com:LLK/scratch-gui.git
+    % cd scratch-gui
+    % npm install
+    ```
+
+2. In scratch-gui folder, clone PoseNet2Scratch. You will have posenet2scratch folder under scratch-gui.
+
+    ```
+    % git clone git@github.com:champierre/posenet2scratch.git
+    ```
+
+3. Run the install script.
+
+    ```
+    % sh posenet2scratch/install.sh
+    ```
+
+4. Run Scratch, then go to http://localhost:8601/.
+
+    ```
+    % npm start
+    ```

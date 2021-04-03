@@ -281,36 +281,28 @@ class Scratch3Posenet2ScratchBlocks {
         this.poses = [];
         this.keypoints = [];
 
-        let video = document.createElement("video");
-        video.width = 480;
-        video.height = 360;
-        video.autoplay = true;
-        video.style.display = "none";
-
-        let media = navigator.mediaDevices.getUserMedia({
-          video: true,
-          audio: false
-        });
-
-        media.then((stream) => {
-            video.srcObject = stream;
-        });
-
-        let poseNet = ml5.poseNet(video, ()=>{
+        this.detectPose = () => {
+          this.video = this.runtime.ioDevices.video.provider.video;
+          this.video.width = 480;
+          this.video.height = 360;
+          this.video.autoplay = true;
+  
+          this.poseNet = ml5.poseNet(this.video, ()=>{
             console.log('Model Loaded!');
-        });
+          });
 
-        poseNet.on('pose', (poses)=>{
+          this.poseNet.on('pose', (poses)=>{
             if (poses.length > 0) {
-                this.poses = poses;
-                this.keypoints = poses[0].pose.keypoints;
+              this.poses = poses;
+              this.keypoints = poses[0].pose.keypoints;
             } else {
-                this.poses = [];
-                this.keypoints = [];
+              this.poses = [];
+              this.keypoints = [];
             }
-        });
+          });
+        }
 
-        this.runtime.ioDevices.video.enableVideo();
+        this.runtime.ioDevices.video.enableVideo().then(this.detectPose);
     }
 
     getInfo () {
@@ -926,8 +918,9 @@ class Scratch3Posenet2ScratchBlocks {
       let state = args.VIDEO_STATE;
       if (state === 'off') {
         this.runtime.ioDevices.video.disableVideo();
+        this.poseNet.video = null;
       } else {
-        this.runtime.ioDevices.video.enableVideo();
+        this.runtime.ioDevices.video.enableVideo().then(this.detectPose);
         this.runtime.ioDevices.video.mirror = state === "on";
       }
     }

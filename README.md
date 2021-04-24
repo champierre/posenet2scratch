@@ -38,8 +38,10 @@ Try [the customized Scratch 3](https://stretch3.github.io/) that has PoseNet2Scr
   - Windows 8
   - Windows 10
   - MacOS
+  - iOS
 - Browser
   - Chrome
+  - Safari(iOS)
 
 PoseNet2Scratch sometimes does not work because of some Chrome extensions. Plese switch to [Guest Mode](https://support.google.com/chrome/answer/6130773) in such cases.
 

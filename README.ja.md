@@ -38,8 +38,10 @@ PoseNet2Scratchは、[独自バージョンのScratch 3](https://stretch3.github
   - Windows 8
   - Windows 10
   - MacOS
+  - iOS
 - ブラウザ
   - Chrome
+  - Safari(iOS)
 
 Chrome の拡張機能を使用している場合に、正常に動作しないことがあるので、もしうまく動かないという場合には、[ゲストモード](https://support.google.com/chrome/answer/6130773?hl=ja)に切り替えてお試しください。
 

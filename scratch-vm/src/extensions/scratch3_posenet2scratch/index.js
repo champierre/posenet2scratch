@@ -545,7 +545,7 @@ class Scratch3Posenet2ScratchBlocks {
                             defaultValue: 50
                         }
                     }
-                },
+                }
             ],
             menus: {
               personNumbers: {

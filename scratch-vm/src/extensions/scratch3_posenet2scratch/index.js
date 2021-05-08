@@ -286,7 +286,7 @@ class Scratch3Posenet2ScratchBlocks {
           this.video.width = 480;
           this.video.height = 360;
           this.video.autoplay = true;
-  
+
           this.poseNet = ml5.poseNet(this.video, ()=>{
             console.log('Model Loaded!');
           });
@@ -531,7 +531,21 @@ class Scratch3Posenet2ScratchBlocks {
                             defaultValue: 'off'
                         }
                     }
-                }
+                },
+                {
+                    opcode: 'setVideoTransparency',
+                    text: formatMessage({
+                        id: 'videoSensing.setVideoTransparency',
+                        default: 'set video transparency to [TRANSPARENCY]',
+                        description: 'Controls transparency of the video preview layer'
+                    }),
+                    arguments: {
+                        TRANSPARENCY: {
+                            type: ArgumentType.NUMBER,
+                            defaultValue: 50
+                        }
+                    }
+                },
             ],
             menus: {
               personNumbers: {
@@ -923,6 +937,19 @@ class Scratch3Posenet2ScratchBlocks {
         this.runtime.ioDevices.video.enableVideo().then(this.detectPose);
         this.runtime.ioDevices.video.mirror = state === "on";
       }
+    }
+
+    /**
+     * A scratch command block handle that configures the video preview's
+     * transparency from passed arguments.
+     * @param {object} args - the block arguments
+     * @param {number} args.TRANSPARENCY - the transparency to set the video
+     *   preview to
+     */
+    setVideoTransparency (args) {
+        const transparency = Cast.toNumber(args.TRANSPARENCY);
+        this.globalVideoTransparency = transparency;
+        this.runtime.ioDevices.video.setPreviewGhost(transparency);
     }
 
     setLocale() {

@@ -313,7 +313,7 @@ class Scratch3Posenet2ScratchBlocks {
           this.video.height = 360;
           this.video.autoplay = true;
 
-          this.poseNet = ml5.poseNet(this.video, ()=>{
+          this.poseNet = ml5.poseNet(this.video, {maxPoseDetections: 10}, ()=>{
             console.log('Model Loaded!');
           });
 

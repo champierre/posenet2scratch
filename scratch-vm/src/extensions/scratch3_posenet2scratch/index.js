@@ -306,19 +306,21 @@ class Scratch3Posenet2ScratchBlocks {
 
         this.poses = [];
         this.keypoints = [];
+        this.videoEnabled = false;
 
-        this.detectPose = () => {
+        let detectPose = () => {
           this.video = this.runtime.ioDevices.video.provider.video;
           this.video.width = 480;
           this.video.height = 360;
           this.video.autoplay = true;
+          this.videoEnabled = true;
 
           this.poseNet = ml5.poseNet(this.video, {maxPoseDetections: 10}, ()=>{
             console.log('Model Loaded!');
           });
 
           this.poseNet.on('pose', (poses)=>{
-            if (poses.length > 0) {
+            if (poses.length > 0 && this.videoEnabled) {
               this.poses = poses;
               this.keypoints = poses[0].pose.keypoints;
             } else {
@@ -328,7 +330,7 @@ class Scratch3Posenet2ScratchBlocks {
           });
         }
 
-        this.runtime.ioDevices.video.enableVideo().then(this.detectPose);
+        this.runtime.ioDevices.video.enableVideo().then(detectPose);
     }
 
     getInfo () {
@@ -957,11 +959,14 @@ class Scratch3Posenet2ScratchBlocks {
     videoToggle (args) {
       let state = args.VIDEO_STATE;
       if (state === 'off') {
-        this.runtime.ioDevices.video.disableVideo();
-        this.poseNet.video = null;
+        this.globalVideoTransparency = 100;
+        this.runtime.ioDevices.video.setPreviewGhost(100);
+        this.videoEnabled = false;
       } else {
-        this.runtime.ioDevices.video.enableVideo().then(this.detectPose);
+        this.globalVideoTransparency = 0;
+        this.runtime.ioDevices.video.setPreviewGhost(0);
         this.runtime.ioDevices.video.mirror = state === "on";
+        this.videoEnabled = true;
       }
     }
 
@@ -973,9 +978,9 @@ class Scratch3Posenet2ScratchBlocks {
      *   preview to
      */
     setVideoTransparency (args) {
-        const transparency = Cast.toNumber(args.TRANSPARENCY);
-        this.globalVideoTransparency = transparency;
-        this.runtime.ioDevices.video.setPreviewGhost(transparency);
+      const transparency = Cast.toNumber(args.TRANSPARENCY);
+      this.globalVideoTransparency = transparency;
+      this.runtime.ioDevices.video.setPreviewGhost(transparency);
     }
 
     setLocale() {

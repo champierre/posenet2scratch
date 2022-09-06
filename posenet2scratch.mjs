@@ -13644,7 +13644,6 @@ var Scratch3Posenet2ScratchBlocks = /*#__PURE__*/function () {
   }, {
     key: "getPeopleCount",
     value: function getPeopleCount() {
-      console.log(this.locale);
       return this.poses.length;
     }
   }, {

@@ -13318,55 +13318,55 @@ var Scratch3Posenet2ScratchBlocks = /*#__PURE__*/function () {
     key: "PARTS_MENU",
     get: function get() {
       return [{
-        text: Message.nose[this._locale],
+        text: Message.nose[this.locale],
         value: '0'
       }, {
-        text: Message.leftEye[this._locale],
+        text: Message.leftEye[this.locale],
         value: '1'
       }, {
-        text: Message.rightEye[this._locale],
+        text: Message.rightEye[this.locale],
         value: '2'
       }, {
-        text: Message.leftEar[this._locale],
+        text: Message.leftEar[this.locale],
         value: '3'
       }, {
-        text: Message.rightEar[this._locale],
+        text: Message.rightEar[this.locale],
         value: '4'
       }, {
-        text: Message.leftShoulder[this._locale],
+        text: Message.leftShoulder[this.locale],
         value: '5'
       }, {
-        text: Message.rightShoulder[this._locale],
+        text: Message.rightShoulder[this.locale],
         value: '6'
       }, {
-        text: Message.leftElbow[this._locale],
+        text: Message.leftElbow[this.locale],
         value: '7'
       }, {
-        text: Message.rightElbow[this._locale],
+        text: Message.rightElbow[this.locale],
         value: '8'
       }, {
-        text: Message.leftWrist[this._locale],
+        text: Message.leftWrist[this.locale],
         value: '9'
       }, {
-        text: Message.rightWrist[this._locale],
+        text: Message.rightWrist[this.locale],
         value: '10'
       }, {
-        text: Message.leftHip[this._locale],
+        text: Message.leftHip[this.locale],
         value: '11'
       }, {
-        text: Message.rightHip[this._locale],
+        text: Message.rightHip[this.locale],
         value: '12'
       }, {
-        text: Message.leftKnee[this._locale],
+        text: Message.leftKnee[this.locale],
         value: '13'
       }, {
-        text: Message.rightKnee[this._locale],
+        text: Message.rightKnee[this.locale],
         value: '14'
       }, {
-        text: Message.leftAnkle[this._locale],
+        text: Message.leftAnkle[this.locale],
         value: '15'
       }, {
-        text: Message.rightAnkle[this._locale],
+        text: Message.rightAnkle[this.locale],
         value: '16'
       }];
     }
@@ -13374,20 +13374,20 @@ var Scratch3Posenet2ScratchBlocks = /*#__PURE__*/function () {
     key: "VIDEO_MENU",
     get: function get() {
       return [{
-        text: Message.off[this._locale],
+        text: Message.off[this.locale],
         value: 'off'
       }, {
-        text: Message.on[this._locale],
+        text: Message.on[this.locale],
         value: 'on'
       }, {
-        text: Message.video_on_flipped[this._locale],
+        text: Message.video_on_flipped[this.locale],
         value: 'on-flipped'
       }];
     }
   }, {
     key: "getInfo",
     value: function getInfo() {
-      this._locale = this.setLocale();
+      this.locale = this.setLocale();
       return {
         id: 'posenet2scratch',
         name: 'Posenet2Scratch',
@@ -13395,7 +13395,7 @@ var Scratch3Posenet2ScratchBlocks = /*#__PURE__*/function () {
         blocks: [{
           opcode: 'getX',
           blockType: blockType.REPORTER,
-          text: Message.getX[this._locale],
+          text: Message.getX[this.locale],
           arguments: {
             PERSON_NUMBER: {
               type: argumentType.STRING,
@@ -13411,7 +13411,7 @@ var Scratch3Posenet2ScratchBlocks = /*#__PURE__*/function () {
         }, {
           opcode: 'getY',
           blockType: blockType.REPORTER,
-          text: Message.getY[this._locale],
+          text: Message.getY[this.locale],
           arguments: {
             PERSON_NUMBER: {
               type: argumentType.STRING,
@@ -13427,147 +13427,147 @@ var Scratch3Posenet2ScratchBlocks = /*#__PURE__*/function () {
         }, {
           opcode: 'getPeopleCount',
           blockType: blockType.REPORTER,
-          text: Message.peopleCount[this._locale]
+          text: Message.peopleCount[this.locale]
         }, {
           opcode: 'getNoseX',
           blockType: blockType.REPORTER,
-          text: Message.nose[this._locale] + Message.x[this._locale]
+          text: Message.nose[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getNoseY',
           blockType: blockType.REPORTER,
-          text: Message.nose[this._locale] + Message.y[this._locale]
+          text: Message.nose[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getLeftEyeX',
           blockType: blockType.REPORTER,
-          text: Message.leftEye[this._locale] + Message.x[this._locale]
+          text: Message.leftEye[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getLeftEyeY',
           blockType: blockType.REPORTER,
-          text: Message.leftEye[this._locale] + Message.y[this._locale]
+          text: Message.leftEye[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getRightEyeX',
           blockType: blockType.REPORTER,
-          text: Message.rightEye[this._locale] + Message.x[this._locale]
+          text: Message.rightEye[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getRightEyeY',
           blockType: blockType.REPORTER,
-          text: Message.rightEye[this._locale] + Message.y[this._locale]
+          text: Message.rightEye[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getLeftEarX',
           blockType: blockType.REPORTER,
-          text: Message.leftEar[this._locale] + Message.x[this._locale]
+          text: Message.leftEar[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getLeftEarY',
           blockType: blockType.REPORTER,
-          text: Message.leftEar[this._locale] + Message.y[this._locale]
+          text: Message.leftEar[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getRightEarX',
           blockType: blockType.REPORTER,
-          text: Message.rightEar[this._locale] + Message.x[this._locale]
+          text: Message.rightEar[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getRightEarY',
           blockType: blockType.REPORTER,
-          text: Message.rightEar[this._locale] + Message.y[this._locale]
+          text: Message.rightEar[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getLeftShoulderX',
           blockType: blockType.REPORTER,
-          text: Message.leftShoulder[this._locale] + Message.x[this._locale]
+          text: Message.leftShoulder[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getLeftShoulderY',
           blockType: blockType.REPORTER,
-          text: Message.leftShoulder[this._locale] + Message.y[this._locale]
+          text: Message.leftShoulder[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getRightShoulderX',
           blockType: blockType.REPORTER,
-          text: Message.rightShoulder[this._locale] + Message.x[this._locale]
+          text: Message.rightShoulder[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getRightShoulderY',
           blockType: blockType.REPORTER,
-          text: Message.rightShoulder[this._locale] + Message.y[this._locale]
+          text: Message.rightShoulder[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getLeftElbowX',
           blockType: blockType.REPORTER,
-          text: Message.leftElbow[this._locale] + Message.x[this._locale]
+          text: Message.leftElbow[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getLeftElbowY',
           blockType: blockType.REPORTER,
-          text: Message.leftElbow[this._locale] + Message.y[this._locale]
+          text: Message.leftElbow[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getRightElbowX',
           blockType: blockType.REPORTER,
-          text: Message.rightElbow[this._locale] + Message.x[this._locale]
+          text: Message.rightElbow[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getRightElbowY',
           blockType: blockType.REPORTER,
-          text: Message.rightElbow[this._locale] + Message.y[this._locale]
+          text: Message.rightElbow[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getLeftWristX',
           blockType: blockType.REPORTER,
-          text: Message.leftWrist[this._locale] + Message.x[this._locale]
+          text: Message.leftWrist[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getLeftWristY',
           blockType: blockType.REPORTER,
-          text: Message.leftWrist[this._locale] + Message.y[this._locale]
+          text: Message.leftWrist[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getRightWristX',
           blockType: blockType.REPORTER,
-          text: Message.rightWrist[this._locale] + Message.x[this._locale]
+          text: Message.rightWrist[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getRightWristY',
           blockType: blockType.REPORTER,
-          text: Message.rightWrist[this._locale] + Message.y[this._locale]
+          text: Message.rightWrist[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getLeftHipX',
           blockType: blockType.REPORTER,
-          text: Message.leftHip[this._locale] + Message.x[this._locale]
+          text: Message.leftHip[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getLeftHipY',
           blockType: blockType.REPORTER,
-          text: Message.leftHip[this._locale] + Message.y[this._locale]
+          text: Message.leftHip[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getRightHipX',
           blockType: blockType.REPORTER,
-          text: Message.rightHip[this._locale] + Message.x[this._locale]
+          text: Message.rightHip[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getRightHipY',
           blockType: blockType.REPORTER,
-          text: Message.rightHip[this._locale] + Message.y[this._locale]
+          text: Message.rightHip[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getLeftKneeX',
           blockType: blockType.REPORTER,
-          text: Message.leftKnee[this._locale] + Message.x[this._locale]
+          text: Message.leftKnee[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getLeftKneeY',
           blockType: blockType.REPORTER,
-          text: Message.leftKnee[this._locale] + Message.y[this._locale]
+          text: Message.leftKnee[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getRightKneeX',
           blockType: blockType.REPORTER,
-          text: Message.rightKnee[this._locale] + Message.x[this._locale]
+          text: Message.rightKnee[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getRightKneeY',
           blockType: blockType.REPORTER,
-          text: Message.rightKnee[this._locale] + Message.y[this._locale]
+          text: Message.rightKnee[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getLeftAnkleX',
           blockType: blockType.REPORTER,
-          text: Message.leftAnkle[this._locale] + Message.x[this._locale]
+          text: Message.leftAnkle[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getLeftAnkleY',
           blockType: blockType.REPORTER,
-          text: Message.leftAnkle[this._locale] + Message.y[this._locale]
+          text: Message.leftAnkle[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'getRightAnkleX',
           blockType: blockType.REPORTER,
-          text: Message.rightAnkle[this._locale] + Message.x[this._locale]
+          text: Message.rightAnkle[this.locale] + Message.x[this.locale]
         }, {
           opcode: 'getRightAnkleY',
           blockType: blockType.REPORTER,
-          text: Message.rightAnkle[this._locale] + Message.y[this._locale]
+          text: Message.rightAnkle[this.locale] + Message.y[this.locale]
         }, {
           opcode: 'videoToggle',
           blockType: blockType.COMMAND,
-          text: Message.videoToggle[this._locale],
+          text: Message.videoToggle[this.locale],
           arguments: {
             VIDEO_STATE: {
               type: argumentType.STRING,

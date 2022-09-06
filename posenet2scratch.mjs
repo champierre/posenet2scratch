@@ -13401,6 +13401,7 @@ var Scratch3Posenet2ScratchBlocks = /*#__PURE__*/function () {
   }, {
     key: "getInfo",
     value: function getInfo() {
+      this.locale = this.setLocale();
       return {
         id: 'posenet2scratch',
         name: 'Posenet2Scratch',

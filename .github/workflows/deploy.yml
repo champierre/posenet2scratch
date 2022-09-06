@@ -28,6 +28,10 @@ jobs:
         working-directory: ./posenet2scratch
       - name: Copy posenet2scratch.mjs to build folder
         run: cp ./posenet2scratch/dist/posenet2scratch.mjs ./build
+      - name: Copy sample.sb3 to build folder
+        run: cp ./posenet2scratch/sample_projects/xcratch/sample.sb3 ./build
+      - name: Copy kashikokunaru.sb3 to build folder
+        run: cp ./posenet2scratch/sample_projects/xcratch/kashikokunaru.sb3 ./build
       - uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}

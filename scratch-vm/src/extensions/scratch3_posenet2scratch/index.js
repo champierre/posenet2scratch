@@ -389,6 +389,7 @@ class Scratch3Posenet2ScratchBlocks {
         return {
             id: 'posenet2scratch',
             name: 'Posenet2Scratch',
+            extensionURL: Scratch3Posenet2ScratchBlocks.extensionURL,
             blockIconURI: blockIconURI,
             blocks: [
                 {

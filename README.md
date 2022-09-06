@@ -1,94 +1,112 @@
 # PoseNet2Scratch
 
-*Read this in other languages: [English](README.md), [日本語](README.ja.md)*
+*Read this in other languages: [English](README.en.md), [日本語](README.md)*
 
-PoseNet2Scratch can detect human pose and add special Scratch blocks that can get x and y position of each part of the body.
+PoseNet2Scratchは人の姿勢を検出し、身体の各部分のxとyの位置を取得できるScratch拡張ブロックを追加することができます。
 
-It uses [PoseNet](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5), a machine learning model , for Real-time Human Pose Estimation. PoseNet advantage is that it can detect human poses quickly and accurately with a normal WebCam without using a special device such as Kinect.
+リアルタイムの姿勢検出をおこなうために[PoseNet](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)を使っています。Kinectのような特別なデバイスを使うことなく、普通のウェブカメラで素早く高精度で検出できるところが大きな特徴です。
 
-[ml5.js](https://ml5js.org/), a JavaScript library for machine learning, is used to connect it with Scratch 3.
+また、Scratch 3の拡張機能として利用できるように、機械学習用JavaScriptライブラリ[ml5.js](https://ml5js.org/)を使用して実装しています。
 
 <img src="images/posenet.gif" width="400" />
 
 <img src="images/nekorider.gif" width="400" />
 
-- [Sample Project(nekorider)](https://github.com/champierre/posenet2scratch/raw/master/projects/nekorider.sb3)
-- [Sample Project(glasses)](https://github.com/champierre/posenet2scratch/raw/master/projects/glasses.sb3)
+- [サンプルプロジェクト(ネコライダー)](https://github.com/champierre/posenet2scratch/raw/master/projects/nekorider.sb3)
+- [サンプルプロジェクト(サングラス)](https://github.com/champierre/posenet2scratch/raw/master/projects/glasses.sb3)
 
-Try [the customized Scratch 3](https://stretch3.github.io/) that has PoseNet2Scratch as an extension.
 
-## Licence
+PoseNet2Scratchは、[独自バージョンのScratch 3](https://stretch3.github.io/)で実際に体験できます。
 
-- PoseNet2Scratch is under [BSD 3-Clause License](./LICENSE.md), open source and freely available to anyone. You can use it at your classes, workshops. Commercial usage is also accepted. If you or your students created something cool using PoseNet2Scratch, please share it on SNS using hashtag **#posenet2scratch** or let me know to any of these contacts.
+## Licence(ライセンス)
 
-## Contacts
+- PoseNet2Scratchには [BSD 3-Clause License](./LICENSE.md) が適用されます。オープンソースで、誰でも自由に利用できます。授業やワークショップで使用でき、商用利用も認められています。あなたやあなたの生徒さんがPoseNet2Scratchを使用して何か面白いプロジェクトを作成したときは、ぜひハッシュタグ **#posenet2scratch** を使用してSNSで共有するか、連絡先までお知らせください。
+- 書籍や雑誌、Webメディア上でPoseNet2Scratchを紹介する場合は、以下の文面を掲載いただきたくお願いいたします。
+```
+PoseNet2Scratchには, BSD 3-Clause Licenseが適用されます。
+Copyright (c) 2020, Junya Ishihara(https://github.com/champierre)
+All rights reserved.
+```
+- また、書籍や雑誌、Webメディア上でScratchのことを紹介する場合は、以下の注意書きを追加することが[Scratchのよくある質問と答え](https://scratch.mit.edu/info/faq)に定められています。
+```
+Scratchは、MITメディア・ラボのライフロング・キンダーガーテン・グループの協力により、Scratch財団が進めているプロジェクトです。https://scratch.mit.edu から自由に入手できます。
+```
+
+## Contacts(連絡先)
 
 - Twitter
 
     <img src="images/twitter.png" />
 
-## Examples of use
+## Examples of use(活用例)
 
-- [Skutch Brothers(Super Smash Brothers type game)](https://www.youtube.com/watch?v=AutgIeyxlb0)
+- [スクッチブラザーズ(スクッチブラザーズは、scratchの拡張機能の、posenet2scratchを使った作品です)](https://www.youtube.com/watch?v=AutgIeyxlb0)
 
-
-## Requirements
+## Requirements(推奨環境)
 
 - OS
   - Windows 8
   - Windows 10
   - MacOS
   - iOS
-- Browser
+- ブラウザ
   - Chrome
   - Safari(iOS)
 
-PoseNet2Scratch sometimes does not work because of some Chrome extensions. Plese switch to [Guest Mode](https://support.google.com/chrome/answer/6130773) in such cases.
+Chrome の拡張機能を使用している場合に、正常に動作しないことがあるので、もしうまく動かないという場合には、[ゲストモード](https://support.google.com/chrome/answer/6130773?hl=ja)に切り替えてお試しください。
 
-## How to use
+## How to use(使い方)
 
-1. Open https://stretch3.github.io/ on a browser([Google Chrome](https://www.google.com/intl/ja_jp/chrome/) is recommended). PoseNet2Scratch sometimes does not work because of some Chrome extensions. Plese switch to Guest Mode in such cases.
+1. ブラウザで https://stretch3.github.io/ を開きます。ブラウザは[Google Chrome](https://www.google.com/intl/ja_jp/chrome/)を使用してください。Chrome の拡張機能を使用している場合に、正常に動作しないことがあるので、もしうまく動かないという場合には、[ゲストモード](https://support.google.com/chrome/answer/6130773)に切り替えてお試しください。
 
-2. Click "Add Extension" button(Folder with "+" mark icon).
-<img src="images/en/extension.png" width="400" />
+2. 「拡張機能を追加」ボタン（+が付いたフォルダのアイコン）をクリックします。
+<img src="images/ja/extension.png" width="400" />
 
-3. Select "PoseNet2Scratch" extension.
-<img src="images/en/posenet_extension.png" width="400" />
+3. 「PoseNet2Scratch」拡張機能を選択します。
+<img src="images/ja/posenet_extension.png" width="400" />
 
-4. You can use PoseNet2Scratch blocks.
-<img src="images/en/posenet2scratch_blocks.png" width="400" />
+4. PoseNet2Scratchのブロックを使用できます。
+<img src="images/ja/posenet2scratch_blocks.png" width="400" />
 
-5. Select "Video Sensing" extension, if you want to see the image captured by webcam on the stage screen. This is not mandatory.
-<img src="images/en/video_sensing.png" width="400" />
+5. ウェブカメラでキャプチャした画像をステージ画面に表示するには、「Video Sensing」拡張機能を選択します。これは必須ではありません。
+<img src = "images/ja/video_sensing.png" width = "400" />
 
-6. Add "Glasses" sprite.
-<img src="images/en/glasses.png" width="400" />
+6. 「Glasses」(眼鏡)スプライトを追加します。
+<img src="images/ja/glasses.png" width="400" />
 
-7. Make a code like below.
-<img src="images/en/blocks.png" width="400" />
+7. 以下のようなコードを作ります。
+<img src="images/ja/blocks.png" width="400" />
 
-8. You will have the glasses shown at the center of your face(x position of the nose) and at the hight of your eyes(y position of the left eye).
-<img src="images/en/face.png" width="400" />
+8. 顔の中央（鼻のx位置）と目の高さ（左目のy位置）に眼鏡が表示されます。
+<img src="images/ja/face.png" width="400" />
 
-With PoseNet2Scratch extension blocks, you can get x and y position of the following body parts:
+PoseNet2Scratch拡張ブロックを使うと、以下の各身体の部分のxおよびy座標を取得できます。
 
-- nose
-- left eye
-- right eye
-- left ear
-- right ear
-- left shoulder
-- right shoulder
-- left elbow
-- right elbow
-- left wrist
-- right wrist
-- left hip
-- right hip
-- left knee
-- right knee
-- left ankle
-- right ankle
+- 鼻
+- 左目
+- 右目
+- 左耳
+- 右耳
+- 左肩
+- 右肩
+- 左ひじ
+- 右ひじ
+- 左手首
+- 右手首
+- 左腰
+- 右腰
+- 左ひざ
+- 右ひざ
+- 左足首
+- 右足首
+
+## How to use from Xcratch(Xcratch からの利用)
+
+PoseNet2Scratch は必要な独自拡張機能を読み込むことができる Scratch Mod の「[Xcratch](https://xcratch.github.io/)」からも利用できます。
+
+Xcratch の URL である [https://xcratch.github.io/](https://xcratch.github.io/) をブラウザで開き、「エディターを開く」を選んだあと、「拡張機能を選ぶ」画面から「拡張機能を読み込む」を選んでから URL 入力欄に https://champierre.github.io/posenet2scratch/posenet2scratch.mjs を入力するか、以下のプロジェクトファイル付き URL から直接アクセスすれば、すでに PoseNet2Scratch の拡張機能を読み込み済みの状態で Xcratch を開くことができます。
+
+&raquo; [PoseNet2Scratch を読み込み済みの Xcratch を開く](https://xcratch.github.io/editor/#https://champierre.github.io/posenet2scratch/sample.sb3)
 
 ## For Developers - How to run PoseNet2Scratch extension on your computer
 

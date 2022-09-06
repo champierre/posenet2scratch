@@ -20,6 +20,14 @@ jobs:
           path: ./posenet2scratch
       - run: sh ./posenet2scratch/install.sh
       - run: npm run build
+      - name: npm install under posenet2scratch
+        run: npm install
+        working-directory: ./posenet2scratch
+      - name: Build posenet2scratch.mjs for xcratch
+        run: npm run build
+        working-directory: ./posenet2scratch
+      - name: Copy posenet2scratch.mjs to build folder
+        run: cp ./posenet2scratch/dist/posenet2scratch.mjs ./build
       - uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}

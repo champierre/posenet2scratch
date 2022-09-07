@@ -13405,6 +13405,7 @@ var Scratch3Posenet2ScratchBlocks = /*#__PURE__*/function () {
       return {
         id: 'posenet2scratch',
         name: 'Posenet2Scratch',
+        extensionURL: Scratch3Posenet2ScratchBlocks.extensionURL,
         blockIconURI: blockIconURI,
         blocks: [{
           opcode: 'getX',

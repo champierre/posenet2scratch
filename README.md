@@ -18,26 +18,6 @@ PoseNet2Scratchは人の姿勢を検出し、身体の各部分のxとyの位置
 
 PoseNet2Scratchは、[独自バージョンのScratch 3](https://stretch3.github.io/)で実際に体験できます。
 
-## Licence(ライセンス)
-
-- PoseNet2Scratchには [BSD 3-Clause License](./LICENSE.md) が適用されます。オープンソースで、誰でも自由に利用できます。授業やワークショップで使用でき、商用利用も認められています。あなたやあなたの生徒さんがPoseNet2Scratchを使用して何か面白いプロジェクトを作成したときは、ぜひハッシュタグ **#posenet2scratch** を使用してSNSで共有するか、連絡先までお知らせください。
-- 書籍や雑誌、Webメディア上でPoseNet2Scratchを紹介する場合は、以下の文面を掲載いただきたくお願いいたします。
-```
-PoseNet2Scratchには, BSD 3-Clause Licenseが適用されます。
-Copyright (c) 2020, Junya Ishihara(https://github.com/champierre)
-All rights reserved.
-```
-- また、書籍や雑誌、Webメディア上でScratchのことを紹介する場合は、以下の注意書きを追加することが[Scratchのよくある質問と答え](https://scratch.mit.edu/info/faq)に定められています。
-```
-Scratchは、MITメディア・ラボのライフロング・キンダーガーテン・グループの協力により、Scratch財団が進めているプロジェクトです。https://scratch.mit.edu から自由に入手できます。
-```
-
-## Contacts(連絡先)
-
-- Twitter
-
-    <img src="images/twitter.png" />
-
 ## Examples of use(活用例)
 
 - [スクッチブラザーズ(スクッチブラザーズは、scratchの拡張機能の、posenet2scratchを使った作品です)](https://www.youtube.com/watch?v=AutgIeyxlb0)
@@ -135,3 +115,23 @@ Xcratch の URL である [https://xcratch.github.io/](https://xcratch.github.io
     ```
     % npm start
     ```
+
+## Licence(ライセンス)
+
+- PoseNet2Scratchには [BSD 3-Clause License](./LICENSE.md) が適用されます。オープンソースで、誰でも自由に利用できます。授業やワークショップで使用でき、商用利用も認められています。あなたやあなたの生徒さんがPoseNet2Scratchを使用して何か面白いプロジェクトを作成したときは、ぜひハッシュタグ **#posenet2scratch** を使用してSNSで共有するか、連絡先までお知らせください。
+- 書籍や雑誌、Webメディア上でPoseNet2Scratchを紹介する場合は、以下の文面を掲載いただきたくお願いいたします。
+```
+PoseNet2Scratchには, BSD 3-Clause Licenseが適用されます。
+Copyright (c) 2020, Junya Ishihara(https://github.com/champierre)
+All rights reserved.
+```
+- また、書籍や雑誌、Webメディア上でScratchのことを紹介する場合は、以下の注意書きを追加することが[Scratchのよくある質問と答え](https://scratch.mit.edu/info/faq)に定められています。
+```
+Scratchは、MITメディア・ラボのライフロング・キンダーガーテン・グループの協力により、Scratch財団が進めているプロジェクトです。https://scratch.mit.edu から自由に入手できます。
+```
+
+## Contacts(連絡先)
+
+- Twitter
+
+    <img src="images/twitter.png" />

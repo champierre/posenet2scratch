@@ -5,11 +5,11 @@ PoseNet2Scratchは2020年よりオープンソースかつ無料で提供して�
 
 <a href="https://www.buymeacoffee.com/champierre" target="_blank"><img src="https://user-images.githubusercontent.com/10215/215533679-bb41b1a2-ba42-4eb6-9f9a-6d0bd67f3aaa.png"></a>
 
-# PoseNet2Scratch
+# PoseNet2Scratch(ポーズネット トゥー スクラッチ)
 
 *Read this in other languages: [English](README.en.md), [日本語](README.md)*
 
-PoseNet2Scratchは人の姿勢を検出し、身体の各部分のxとyの位置を取得できるScratch拡張ブロックを追加することができます。
+PoseNet2Scratch(ポーズネット トゥー スクラッチ)は人の姿勢を検出し、身体の各部分のxとyの位置を取得できるScratch拡張ブロックを追加することができます。
 
 リアルタイムの姿勢検出をおこなうために[PoseNet](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)を使っています。Kinectのような特別なデバイスを使うことなく、普通のウェブカメラで素早く高精度で検出できるところが大きな特徴です。
 

@@ -85,27 +85,27 @@ With PoseNet2Scratch extension blocks, you can get x and y position of the follo
 1. Setup LLK/scratch-gui on your computer.
 
     ```
-    % git clone git@github.com:LLK/scratch-gui.git
-    % cd scratch-gui
-    % npm install
+    git clone --depth 1 git@github.com:LLK/scratch-gui.git
+    cd scratch-gui
+    npm install
     ```
 
 2. In scratch-gui folder, clone PoseNet2Scratch. You will have posenet2scratch folder under scratch-gui.
 
     ```
-    % git clone git@github.com:champierre/posenet2scratch.git
+    git clone git@github.com:champierre/posenet2scratch.git
     ```
 
 3. Run the install script.
 
     ```
-    % sh posenet2scratch/install.sh
+    sh posenet2scratch/install.sh
     ```
 
 4. Run Scratch, then go to http://localhost:8601/.
 
     ```
-    % npm start
+    npm start
     ```
 
 ## Licence

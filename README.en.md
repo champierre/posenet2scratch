@@ -110,7 +110,7 @@ With PoseNet2Scratch extension blocks, you can get x and y position of the follo
 
 ## Licence
 
-- PoseNet2Scratch is under [AGPL-3.0 license](./LICENSE), open source and freely available to anyone. You can use it at your classes, workshops. Commercial usage is also accepted. If you or your students created something cool using PoseNet2Scratch, please share it on SNS using hashtag **#posenet2scratch** or let me know to any of these contacts.
+PoseNet2Scratch is under [AGPL-3.0 license](./LICENSE), open source and freely available to anyone. You can use it at your classes, workshops. Commercial usage is also accepted. If you or your students created something cool using PoseNet2Scratch, please share it on SNS using hashtag **#posenet2scratch** or let me know to any of these contacts.
 
 ## Contacts
 

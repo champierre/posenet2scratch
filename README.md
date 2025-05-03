@@ -25,6 +25,10 @@ PoseNet2Scratch(ポーズネット トゥー スクラッチ)は人の姿勢を�
 
 PoseNet2Scratchは、[独自バージョンのScratch 3](https://stretch3.github.io/)で実際に体験できます。
 
+## 音声解説(NotebookLMを使って生成)
+
+[音声ファイルを再生・ダウンロード](https://notebooklm.google.com/notebook/61de27c0-a69a-456d-bbda-b1980ea0cd99/audio)
+
 ## Examples of use(活用例)
 
 - [スクッチブラザーズ(スクッチブラザーズは、scratchの拡張機能の、posenet2scratchを使った作品です)](https://www.youtube.com/watch?v=AutgIeyxlb0)
